@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Location Information</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Location Information</h1>
+          <br>
+          <form>
+            <div class="form-group">
+              <label for="location">City</label>
+              <input type="text" class="form-control" id="city" placeholder="City">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+
+          <p>Location results for: <strong><span class="query"></span></strong></p>
+
+          <hr>
+
+          <div class="results-area">
+            <ul class="results">
+            </ul>
+          </div>
+
+        </div> <!-- close col -->
+      </div> <!-- close row -->
+    </div> <!-- close container -->
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
